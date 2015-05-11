@@ -34,7 +34,7 @@ public class _01Servlet extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		request.setAttribute("intVal", new Integer(10));
-		request.setAttribute("floatVal", 3.14);
+		request.setAttribute("floatVal", 3.141);
 		request.setAttribute("boolVal", true);
 		request.setAttribute("email", "assariba@gmail.com");
 		request.getRequestDispatcher( "/view/01.jsp" ).forward( request, response );
